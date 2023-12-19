@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
 
     //if windows
-    /*QSqlDatabase db = QSqlDatabase::addDatabase("QODBC3");
-    db.setDatabaseName("Driver={MySQL ODBC ANSI Driver};DATABASE=foot;"); */
+    /*QSqlDatabase db = QSqlDatabase::addDatabase("QODBC");
+    db.setDatabaseName("Driver={MySQL ODBC8.2.0 ANSI Driver};DATABASE=foot;"); */
 
     db.setDatabaseName("foot");
     db.setUserName("sofiane");
